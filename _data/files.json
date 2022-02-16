@@ -13,5 +13,10 @@
     "name": "example.ps1",
     "dirPath": "/ps1/example.ps1",
     "type": "ps1"
+  },
+  {
+    "name": "import.ps1",
+    "dirPath": "/ps1/import.ps1",
+    "type": "ps1"
   }
 ]
