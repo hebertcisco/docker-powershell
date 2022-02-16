@@ -1,0 +1,7 @@
+[
+  {
+    "name": "docker-build.psm1",
+    "dirPath": "/psm1/docker-build.psm1",
+    "type": "psm1"
+  }
+]
