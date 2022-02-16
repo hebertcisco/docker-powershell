@@ -5,8 +5,8 @@
     "type": "psm1"
   },
   {
-    "name": "build-example.ps1",
-    "dirPath": "/ps1/build-example.ps1",
-    "type": "ps1"
+    "name": "build-example.psm1",
+    "dirPath": "/psm1/build-example.psm1",
+    "type": "psm1"
   }
 ]
