@@ -1,0 +1,42 @@
+<table>
+  <tbody>
+    <tr>
+      <th valign="top">{% include icons/ftp_server.rbs %}</th>
+      <th>
+        <span>Name</span>
+      </th>
+      <th>
+        <span>Last modified</span>
+      </th>
+      <th>
+        <span>Size</span>
+      </th>
+    </tr>
+    <tr>
+      <th colspan="5"><hr /></th>
+    </tr>
+    <tr>
+      <td valign="top">
+        {% include icons/symlink_directory.rbs %}
+      </td>
+      <td>
+        <a href="/">Parent Directory</a>
+      </td>
+      <td>&nbsp;</td>
+    </tr>
+    {% for file in site.data.files %}
+    <tr>
+      <td valign="top">{% include icons/powershell.rbs %}</td>
+      <td>
+        <a href="{{ file.dirPath }}"
+          >{{ file.name }}</a
+        >
+      </td>
+      <td align="right">{{ file.type }}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+      <th colspan="5"><hr /></th>
+    </tr>
+  </tbody>
+</table>
