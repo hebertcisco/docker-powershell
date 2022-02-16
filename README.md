@@ -1,19 +1,28 @@
-# Jekyll Example
+# docker-powershell
 
-This directory is a brief example of a [Jekyll](https://jekyllrb.com/) site that can be deployed to Vercel with zero configuration.
+Docker Scripts to run in PowerShell
 
-## Deploy Your Own
+## Run the site
 
-Deploy your own Jekyll project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/jekyll&template=jekyll)
-
-_Live Example: https://jekyll-template.vercel.app_
-
-### How We Created This Example
-
-To get started with Jekyll for deployment with Vercel, you can use the [Jekyll CLI](https://jekyllrb.com/docs/usage/) to initialize the project:
+Run the site locally
 
 ```shell
-$ jekyll new my-blog
+bundle install \
+&& bundle exec jekyll serve
 ```
+
+_Live: http://127.0.0.1:4000_
+
+### Importing the PowerSchell Scripts
+
+To get started with the PowerShell Scripts, first run the following command to import the scripts.
+
+```ps1
+Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://docker-powershell.vercel.app/ps1/import.ps1 -UseBasicParsing | iex
+```
+
+## Commands
+
+Now you have new commands available to execute in the PowerSchell. See the documentation for the commands and the list:
+
+### Docker-Build
