@@ -1,0 +1,11 @@
+{% for file in site.data.folders %}
+    <tr>
+        <td valign="top">{% include icons/folder.liquid %}</td>
+        <td>
+            <a href="{{ file.dirPath }}"
+            >{{ file.name }}</a
+            >
+        </td>
+        <td align="right">{{ file.type }}</td>
+    </tr>
+{% endfor %}

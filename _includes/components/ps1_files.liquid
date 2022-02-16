@@ -1,0 +1,13 @@
+{% assign ps1_files = site.data.files | where: "type", "ps1" %}
+
+{% for file in ps1_files %}
+    <tr>
+        <td valign="top">{% include icons/powershell.liquid %}</td>
+        <td>
+            <a href="{{ file.dirPath }}"
+            >{{ file.name }}</a
+            >
+        </td>
+        <td align="right">{{ file.type }}</td>
+    </tr>
+{% endfor %}

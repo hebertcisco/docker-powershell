@@ -1,0 +1,12 @@
+[
+  {
+    "name": "psm1",
+    "dirPath": "/psm1",
+    "type": "folder"
+  },
+  {
+    "name": "ps1",
+    "dirPath": "/ps1",
+    "type": "folder"
+  }
+]
