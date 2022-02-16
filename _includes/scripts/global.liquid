@@ -1,0 +1,7 @@
+<script>
+  let currentPage = window.location.pathname;
+  let currentPageElement = document.getElementById(currentPage);
+  if (currentPageElement) {
+      currentPageElement.innerHTML = `Index of ${currentPage}`;
+  }
+</script>
