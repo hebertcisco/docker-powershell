@@ -5,8 +5,13 @@
     "type": "psm1"
   },
   {
-    "name": "build-example.psm1",
-    "dirPath": "/psm1/build-example.psm1",
-    "type": "psm1"
+    "name": "docker-build.ps1",
+    "dirPath": "/ps1/docker-build.ps1",
+    "type": "ps1"
+  },
+  {
+    "name": "example.ps1",
+    "dirPath": "/ps1/example.ps1",
+    "type": "ps1"
   }
 ]
